@@ -21,6 +21,8 @@ while True:
 
         todos = get_todos()
 
+
+
         for index, item in enumerate(todos):
             item = item.strip("\n")
             row = f"{index+1}-{item}"
